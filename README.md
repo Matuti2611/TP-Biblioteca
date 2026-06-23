@@ -1,11 +1,5 @@
-<div align="center">
-
-# PROYECTO
-
----
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:333333&height=180&section=header&text=Proyecto&fontSize=42&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:333333&height=180&section=header&text=TP Biblioteca&fontSize=42&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <br>
@@ -26,10 +20,6 @@
 </td>
 </tr>
 </table>
-
-<br>
-
----
 
 <br>
 
