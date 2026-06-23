@@ -22,6 +22,6 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=666666&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=100&section=footer"/>
 
 </div>
