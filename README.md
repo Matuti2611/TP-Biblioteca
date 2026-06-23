@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20&height=140&section=header&text=TP-Biblioteca&fontSize=38&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f172a&height=140&section=header&text=TP-Biblioteca&fontSize=38&fontColor=ffffff&animation=fadeIn" />
+
 ## Integrantes
 
 <table>
