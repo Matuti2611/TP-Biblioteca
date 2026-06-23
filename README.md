@@ -1,19 +1,18 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:333333&height=180&section=header&text=TP-Biblioteca&fontSize=42&fontColor=ffffff&animation=fadeIn" />
-</p>
+<div align="center">
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=666666&height=140&section=header&text=TP-Biblioteca&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 
 ## Integrantes
 
 <table>
 <tr>
-<td align="center" width="400">
+<td align="center" width="250">
 
 ### Ciro Pregot
 
 </td>
-<td align="center" width="400">
+
+<td align="center" width="250">
 
 ### Matias Rubio
 
@@ -23,6 +22,6 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:333333,100:111111&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=666666&height=100&section=footer"/>
 
 </div>
