@@ -28,6 +28,7 @@ namespace Biblioteca_Pregot_Rubio
                 Console.Write("Seleccione una opcion: ");
                 
                 string? opcion = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(opcion)) continue;
                 Console.WriteLine();
 
                 switch (opcion)
