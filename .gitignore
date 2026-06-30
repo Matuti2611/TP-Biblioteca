@@ -1,0 +1,10 @@
+obj/
+bin/
+[Oo]bj/
+[Bb]in/
+*.user
+.vs/
+.idea/
+*.suo
+*.userosscache
+*.sln.docstates
