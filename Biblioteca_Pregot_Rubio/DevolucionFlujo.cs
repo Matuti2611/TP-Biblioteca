@@ -46,7 +46,7 @@ namespace Biblioteca_Pregot_Rubio
 
             if (multaGenerada > 0)
             {
-                Console.WriteLine($"RN-06: Devolucion registrada con retraso. Se genero una multa de ${multaGenerada}.");
+                Console.WriteLine($"Devolucion registrada con retraso. Se genero una multa de ${multaGenerada}.");
             }
             else
             {

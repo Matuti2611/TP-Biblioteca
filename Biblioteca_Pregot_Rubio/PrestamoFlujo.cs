@@ -24,20 +24,20 @@ namespace Biblioteca_Pregot_Rubio
 
             if (!socio.activo)
             {
-                Console.WriteLine("RN-01: El socio esta inactivo y no puede realizar prestamos.");
+                Console.WriteLine("El socio esta inactivo y no puede realizar prestamos.");
                 return;
             }
 
             if (socio.multas.Any(m => !m.pagada))
             {
-                Console.WriteLine("RN-02: El socio tiene multas pendientes de pago.");
+                Console.WriteLine("El socio tiene multas pendientes de pago.");
                 return;
             }
 
             int prestamosActivos = socio.prestamos.Count(p => p.fechaDevolucion == null);
             if (socio.tipoSocio != null && prestamosActivos >= socio.tipoSocio.maxLibros)
             {
-                Console.WriteLine($"RN-04: El socio ha alcanzado el limite maximo de prestamos simultaneos ({socio.tipoSocio.maxLibros}).");
+                Console.WriteLine($"El socio ha alcanzado el limite maximo de prestamos simultaneos ({socio.tipoSocio.maxLibros}).");
                 return;
             }
 
@@ -76,7 +76,7 @@ namespace Biblioteca_Pregot_Rubio
 
             if (disponiblesLibro <= 0)
             {
-                Console.WriteLine("RN-03: No hay copias disponibles para este libro.");
+                Console.WriteLine("No hay copias disponibles para este libro.");
                 Console.Write("¿Desea reservar el libro? (s/n): ");
                 string? rta = Console.ReadLine();
                 if (rta?.ToLower() == "s")
@@ -95,7 +95,7 @@ namespace Biblioteca_Pregot_Rubio
             bool yaReservado = gestor.yaTieneReservaActiva(nroSocio, isbn);
             if (yaReservado)
             {
-                Console.WriteLine("RN-08: El socio ya tiene una reserva activa para este libro.");
+                Console.WriteLine("El socio ya tiene una reserva activa para este libro.");
                 return;
             }
 

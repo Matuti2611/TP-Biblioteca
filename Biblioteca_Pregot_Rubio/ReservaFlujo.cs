@@ -22,7 +22,7 @@ namespace Biblioteca_Pregot_Rubio
 
             if (!socio.activo)
             {
-                Console.WriteLine("RN-01: El socio esta inactivo.");
+                Console.WriteLine("El socio esta inactivo.");
                 return;
             }
 
@@ -44,7 +44,7 @@ namespace Biblioteca_Pregot_Rubio
             bool yaReservado = gestor.yaTieneReservaActiva(socio.nroSocio, libro.isbn);
             if (yaReservado)
             {
-                Console.WriteLine("RN-08: El socio ya tiene una reserva activa para este libro.");
+                Console.WriteLine("El socio ya tiene una reserva activa para este libro.");
                 return;
             }
 

@@ -116,7 +116,7 @@ namespace Biblioteca_Pregot_Rubio
             if (reservaPendiente != null)
             {
                 reservaPendiente.idEstadoReserva = 2;
-                mensajeReserva = $"RN-07: Se cumplio la reserva mas antigua del libro. Notificado socio: {reservaPendiente.socio?.nombre} {reservaPendiente.socio?.apellido} (Nro: {reservaPendiente.nroSocio}).";
+                mensajeReserva = $"Se cumplio la reserva mas antigua del libro. Notificado socio: {reservaPendiente.socio?.nombre} {reservaPendiente.socio?.apellido} (Nro: {reservaPendiente.nroSocio}).";
             }
 
             _context.SaveChanges();
